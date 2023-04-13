@@ -1,0 +1,14 @@
+<div class="container add-student-container">
+    <div>
+      <mat-card>
+        <h3 style="text-align: center">Nuevo Producto</h3>
+        <div>
+          <mat-form-field appearance="outline" class="form-element">
+            <mat-label>Nombre Producto</mat-label>
+            <input matInput  [(ngModel)] ="productForm.NombreProducto" />
+          </mat-form-field>
+        </div>
+          <button mat-raised-button color="primary" (click)="create()">Create</button>
+      </mat-card>
+    </div>
+  </div>
